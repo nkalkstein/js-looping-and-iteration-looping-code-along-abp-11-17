@@ -16,7 +16,12 @@ let i = 0
 
 function tailsNeverFails() {
   while (maybeTrue()) {
-    console.log(`You got ${i-1} tails in a row!`);
-    i++;
+    console.log(`You got 2 tails in a row!`);
   }
+}
+
+let countdown = 10;
+
+while (countdown > 0) {
+  console.log(--countdown);
 }
