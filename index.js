@@ -1,5 +1,5 @@
 
-const names = ['Lisa', 'Kaitlin', 'Jan'];
+const names = [];
 
 function printBadges([]) {
   for (let i=0; i < names.length; i++) {
