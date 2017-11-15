@@ -12,6 +12,8 @@ function maybeTrue() {
   return Math.random() >= 0.5;
 }
 
+var i = 0
+
 function tailsNeverFails() {
   while (maybeTrue()) {
     i++;
