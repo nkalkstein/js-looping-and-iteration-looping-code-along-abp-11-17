@@ -12,7 +12,9 @@ function tailsNeverFails() {
   return Math.random() >= 0.5;
 }
 
-while (tailsNeverFails()) {
-  console.log(`You got ${i} tails in a row!`)
-}
+var i = 0
 
+while (tailsNeverFails()) {
+  console.log(`You got ${i} tails in a row!`);
+  i++;
+}
