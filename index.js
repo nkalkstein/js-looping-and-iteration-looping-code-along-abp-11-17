@@ -16,6 +16,3 @@ while (tailsNeverFails()) {
   console.log(`You got ${i} tails in a row!`)
 }
 
-while (countdown > 0) {
-  console.log(--countdown);
-}
