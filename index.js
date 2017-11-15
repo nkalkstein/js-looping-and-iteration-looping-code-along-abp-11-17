@@ -12,12 +12,11 @@ function maybeTrue() {
   return Math.random() >= 0.5;
 }
 
-let i = 0
+var i = 0
 
 function tailsNeverFails() {
   while (maybeTrue()) {
-    console.log(`You got 2 tails in a row!`);
+    i++
+    console.log(`You got ${i} tails in a row!`);
   }
 }
-
-
