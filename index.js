@@ -7,3 +7,15 @@ function printBadges(names) {
   }
   return names
 }
+
+function tailsNeverFails() {
+  return Math.random() >= 0.5;
+}
+
+while (tailsNeverFails()) {
+  console.log(`You got ${i} tails in a row!`)
+}
+
+while (countdown > 0) {
+  console.log(--countdown);
+}
