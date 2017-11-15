@@ -12,9 +12,9 @@ function maybeTrue() {
   return Math.random() >= 0.5;
 }
 
-
 function tailsNeverFails() {
-while (maybeTrue()) {
-  i++;
-  console.log(`You got ${i} tails in a row!`);
+  while (maybeTrue()) {
+    i++;
+    console.log(`You got ${i} tails in a row!`);
+  }
 }
