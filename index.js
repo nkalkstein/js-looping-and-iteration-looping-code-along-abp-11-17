@@ -13,7 +13,6 @@ function tailsNeverFails() {
     var i = 0;
     i++;
     console.log(`You got ${i} tails in a row!`);
-  }
 }
 
 
