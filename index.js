@@ -8,13 +8,13 @@ function printBadges(names) {
   return names
 }
 
-function tailsNeverFails() {
+function maybeTrue() {
   return Math.random() >= 0.5;
 }
 
 
-
-while (tailsNeverFails()) {
+function tailsNeverFails() {
+while (maybeTrue()) {
   i++;
   console.log(`You got ${i} tails in a row!`);
 }
